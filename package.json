@@ -5,7 +5,7 @@
   "main": "string.js",
   "license": "MIT",
   "scripts": {
-    "test": "node test/index.js | faucet"
+    "test": "node test/test.js | faucet"
   },
   "author": {
     "name": "Matt DesLauriers",
