@@ -25,7 +25,7 @@ void main() {
 You can process it at runtime, like so:
 
 ```js
-var injectDefines = require('glsl-inject-definess')
+var injectDefines = require('glsl-inject-defines')
 var fs = require('fs')
 
 var source = fs.readFileSync(__dirname + '/shader.glsl', 'utf8')
