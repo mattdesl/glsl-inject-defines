@@ -13,6 +13,7 @@
     "url": "http://github.com/mattdesl"
   },
   "dependencies": {
+    "glsl-token-inject-block": "^1.0.0",
     "glsl-token-string": "^1.0.1",
     "glsl-tokenizer": "^2.0.2"
   },

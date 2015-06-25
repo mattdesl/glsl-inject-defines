@@ -4,7 +4,7 @@ var fs = require('fs')
 var path = require('path')
 
 test('injects a #define statement into a shader source', function (t) {
-  var expected = '#version 330\n#extension GL_OES_standard_derivatives : enable\n#define PI 3.14\n\nvoid main() {\n}\n'
+  var expected = '#version 330\n#extension GL_OES_standard_derivatives : enable\n#define PI 3.14\nvoid main() {\n}\n'
   var fixture = fs.readFileSync(path.join(__dirname, 'fixture1.glsl'), 'utf8')
   t.equal(inject(fixture), fixture, 'returns same string')
   t.equal(inject(fixture, {}), fixture, 'returns same string')
@@ -34,6 +34,6 @@ test('injects a #define statement into a shader source', function (t) {
   t.equal(inject('#extension blah\nvoid main() {}', {
     PI: 3.14,
     FOO: 'bar'
-  }), '#extension blah\n#define PI 3.14\n#define FOO bar\n\nvoid main() {}', 'injects multiple defines')
+  }), '#extension blah\n#define PI 3.14\n#define FOO bar\nvoid main() {}', 'injects multiple defines')
   t.end()
 })
