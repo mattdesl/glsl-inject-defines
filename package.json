@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stackgl/glsl-inject-defines.git"
+    "url": "git://github.com/mattdesl/glsl-inject-defines.git"
   },
   "keywords": [
     "ecosystem:stackgl",
@@ -35,8 +35,8 @@
     "shader",
     "glsl"
   ],
-  "homepage": "https://github.com/stackgl/glsl-inject-defines",
+  "homepage": "https://github.com/mattdesl/glsl-inject-defines",
   "bugs": {
-    "url": "https://github.com/stackgl/glsl-inject-defines/issues"
+    "url": "https://github.com/mattdesl/glsl-inject-defines/issues"
   }
 }

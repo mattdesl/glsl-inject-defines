@@ -1,6 +1,6 @@
 # glsl-inject-defines
 
-[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 Safely inject `#define` statements into a shader source. 
 
@@ -65,7 +65,7 @@ npm install glsl-inject-defines
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/glsl-inject-defines.png)](https://nodei.co/npm/glsl-inject-defines/)
+[![NPM](https://nodei.co/npm/glsl-inject-defines.png)](https://www.npmjs.com/package/glsl-inject-defines)
 
 #### `newSource = injectDefines(source, defines)`
 
