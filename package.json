@@ -1,6 +1,6 @@
 {
   "name": "glsl-inject-defines",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "injects a #define statement into a shader source",
   "main": "string.js",
   "license": "MIT",
